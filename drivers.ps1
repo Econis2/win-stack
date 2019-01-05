@@ -1,8 +1,8 @@
 
 param (
 
-[ValidateSet(2k12,2k12R2,2k16)]
-[string]$version = 2k12R2
+[ValidateSet("2k12","2k12R2","2k16")]
+[string]$version = "2k12R2"
 
 )
 
